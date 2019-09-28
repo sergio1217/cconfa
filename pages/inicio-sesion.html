@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Confa | Inicio sesión</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+
+  <body>
+    <main class="iniciosesion">
+      <img src="../images/borde.png" alt="Borde Confa" class="borde borde-arriba">
+
+      <section class="iniciosesion-seccion iniciosesion-imagen">
+        <img src="../images/inicio-sesion.jpg" alt="Imagen - Inicio sesión">
+      </section>
+
+      <section class="iniciosesion-seccion">
+        <form class="iniciosesion-formulario">
+          <h1>Inicia sesión</h1>
+
+          <div class="iniciosesion-formulario__campo">
+            <label for="correo">Correo o teléfono</label>
+            <input type="email" name="correo" id="correo" placeholder="Correo o teléfono" />
+            <span>Asegúrate de estar ingresando un correo válido.</span>
+          </div>
+
+          <div class="iniciosesion-formulario__campo">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña" />
+            <span>Contraseña incorrecta, inténtalo de nuevo.</span>
+          </div>
+
+          <div class="iniciosesion-formulario__campo iniciosesion-formulario__checkbox">
+            <input type="checkbox" name="recuerdame" id="recuerdame">
+            <label for="recuerdame">Recuérdame</label>
+          </div>
+
+          <a href="">¿Olvidaste tu contraseña?</a>
+
+          <div class="iniciosesion-formulario__boton">
+            <button>Iniciar sesión</button>
+          </div>
+        </form>
+
+        <div class="iniciosesion-registro">
+          ¿Aún no tienes cuenta?
+          <br />
+          no pasa nada, <a href="registro.html">Regístrate</a>
+        </div>
+      </section>
+
+      <img src="../images/borde.png" alt="Borde Confa" class="borde borde-abajo">
+    </main>
+  </body>
+</html>
